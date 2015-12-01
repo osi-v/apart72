@@ -1,0 +1,36 @@
+.customize-popup-window-container {
+	display: none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1000;
+	text-align: center;
+}
+.customize-popup-window {
+	position: relative;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.9);
+	text-align: left;
+	display: inline-block;
+	margin: 0px auto;
+	border:3px solid #5fafd3;
+}
+.customize-popup-window h3,
+.customize-popup-window p{
+	margin: 0px;
+}
+.close-custompopup {
+	z-index: 100;
+	background: #fff no-repeat center center url('close-custompopup.png');
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
